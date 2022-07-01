@@ -1,0 +1,22 @@
+#this is for  number of times to be implemented
+'''n=int(input())
+first_number=0
+second_number=1
+add=0
+while add<=n:
+    fibo=first_number + second_number
+    first_number=second_number
+    second_number=fibo
+    add+=1
+    print(fibo)'''
+    
+#untill a certain number
+n=int(input())
+a=0
+b=1
+fib=0
+while fib!=n:
+    fib=a+b
+    a=b
+    b=fib
+    print(fib)
