@@ -1,0 +1,7 @@
+class details:
+  def __init__(self,n,a):
+    self.n=n
+    self.a=a
+  
+obj=details("anjali",24)
+print(obj.a)
