@@ -13,4 +13,7 @@ myfamily = {
   }
 }
 
-print(myfamily["child1"]["name"])
+print(myfamily["child1"]["name"]) #or .get("name")
+
+#toget only values  print(myfamily["child1"].values())
+#toget keys  --> .keys()
