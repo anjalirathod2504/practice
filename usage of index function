@@ -7,3 +7,16 @@ for i in range(len(a)):
             print("all even numbers",a[i])
     elif a[i]%2==1:
         print("all odd number",a[i])
+#user input
+
+a=[]
+a[:]=map(int,input().split())
+n=int(input())
+d=a.index(n)
+#print(d)
+for i in range(len(a)):
+    if i<d:
+        if a[i]%2==0:
+            print("all even numbers",a[i])
+    elif a[i]%2==1:
+        print("all odd number",a[i])
