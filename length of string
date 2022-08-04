@@ -1,0 +1,6 @@
+n=input()
+a=len(n)
+if a%4==0:
+    print("printing n = ",n)
+else:
+    print("string length is not multiple of 4")
