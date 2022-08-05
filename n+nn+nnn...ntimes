@@ -1,0 +1,21 @@
+#n+nn+nnn+nnnn....ntimes
+number=int(input())
+power=number
+change = number
+summ = 0
+for i in range(power):
+    summ += change
+    change = change * 10 + number
+    print("sum =",summ)
+    print("change =",change)
+print(summ)
+
+#n=n+nn+nnn
+n=int(input())
+#n1=n
+#n2=n*n
+#n3=n*n*n
+#print("n1",n1,"n2",n2,"n3",n3)
+m=n+n*n+n*n*n
+print(m)
+
