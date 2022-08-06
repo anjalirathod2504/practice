@@ -1,0 +1,11 @@
+Threading is a sequence of instructions in a program that can be executed independently of the remaining process.
+You can see them as different units of your process that do jobs independently when scheduled.
+
+from threading import *
+def show():     #show function
+  print("this is child thread")   #in code in show function
+t=Thread(target=show())      #a thread is created for show function or this is the thread() of method with the target as show function
+t.start()                    #starting the thread
+print("this is in main thread")  #this line belongs in main program that is outside the thread
+
+#as we created a thread. Now the thread will run the show() function and everything else will be run in the main thread
