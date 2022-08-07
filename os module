@@ -12,3 +12,5 @@ print("lists of files in dir : ",q)
 os.chdir('/home/folder1')  #changing the working dir
 r=os.getcwd()
 print('cwd after changing the dir',r)
+
+'''The OS module in Python provides functions for interacting with the operating system.This module includes many functions to interact with the file system '''
