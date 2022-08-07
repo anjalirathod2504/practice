@@ -1,0 +1,14 @@
+import os
+p=os.getcwd()   #prints current working dir
+print("the current working dir is : ",p)
+
+new_dir="folder1"
+parent_dir=p
+path=os.path.join(parent_dir,new_dir) 
+os.mkdir(path)
+print("the new dir is : ",new_dir)
+q=os.listdir("/home")  #lists the files in the dir
+print("lists of files in dir : ",q)
+os.chdir('/home/folder1')  #changing the working dir
+r=os.getcwd()
+print('cwd after changing the dir',r)
