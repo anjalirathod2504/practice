@@ -1,0 +1,24 @@
+class Area:
+  "this class is used for calculation of Area of triangle,rectangle,square"
+  def circle(self,r,unit,output):
+    "this method is used to calculate area of circle"
+    if (output=="m" and unit=="cm"):
+      r=r/100
+      x=3.14*r*r
+    print(f"area of circle is {x} sq.{output}") 
+  def triangle(self,b,h):
+    "this menthod is used to calculate area of triangle"
+    y=0.5*b*h
+    print(f"area of triangle is {y}")
+  def rectangle(self,l,w):
+    "this method is used to calculate area of rectangle"
+    z=l*w
+    print(f"area of rectangle is {z}")
+  def square(self,a):
+    "this is area of square"
+    s=a*a
+    print(f"area of square is {s}")
+    
+x=Area()
+x.triangle(5,6)
+x.triangle.__doc__
