@@ -1,0 +1,13 @@
+from multipledispatch import dispatch
+
+@dispatch(int,int)
+def add(a,b):
+  print(a+b)
+
+@dispatch(int,int,float)
+def add(a,b,c):
+  print(a,b,c)
+
+add(1,2)
+#this is an example of methodoverloading
+#if i give only 2 values of int the first block will be executed
