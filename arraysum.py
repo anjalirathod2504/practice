@@ -1,9 +1,16 @@
 list1 = [2,3,4,5,6]
-sum=0
+total=0
 for i in list1:
-    sum=sum+i
+    total=total+i
     i=i+1
-print("sum of the array is",sum)
+print("sum of the array is",total)
+
+code 2:
+
+list1 = [2,3,4,5,6]
+total=0
+for i in list1:
+    total=total+i
+print("sum of the array is",total)
 
 
-#dont use variable sum, instead use total etc
