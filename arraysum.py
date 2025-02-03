@@ -6,3 +6,4 @@ for i in list1:
 print("sum of the array is",sum)
 
 
+#dont use variable sum, instead use total etc
